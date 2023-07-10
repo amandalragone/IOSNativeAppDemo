@@ -60,6 +60,7 @@
 		D54F47872A4B20100001E087 /* IOSNativeAppDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSNativeAppDemoUITests.swift; sourceTree = "<group>"; };
 		D54F47892A4B20100001E087 /* IOSNativeAppDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSNativeAppDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D54F47992A4DEDDD0001E087 /* ElectrodeContainer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ElectrodeContainer.xcframework; path = Pods/ElectrodeContainer/ElectrodeContainer.xcframework; sourceTree = "<group>"; };
+		D5C0C2CD2A5C574E0036DCC8 /* IOSNativeAppDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOSNativeAppDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		E3F30802DD26D876F9E4CA38 /* Pods_IOSNativeAppDemo_IOSNativeAppDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSNativeAppDemo_IOSNativeAppDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -147,6 +148,7 @@
 				D54F476F2A4B200F0001E087 /* Assets.xcassets */,
 				D54F47712A4B200F0001E087 /* LaunchScreen.storyboard */,
 				D54F47742A4B200F0001E087 /* Info.plist */,
+				D5C0C2CD2A5C574E0036DCC8 /* IOSNativeAppDemo-Bridging-Header.h */,
 			);
 			path = IOSNativeAppDemo;
 			sourceTree = "<group>";

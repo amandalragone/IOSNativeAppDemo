@@ -5,7 +5,7 @@ target 'IOSNativeAppDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'ElectrodeContainer', :git => 'git@github.com:amandalragone/endeavor-ios-native-app-container.git', :tag => 'v1.0.6'
+  pod 'ElectrodeContainer', :git => 'git@github.com:amandalragone/endeavor-ios-native-app-container.git', :tag => 'v1.0.8'
 
   target 'IOSNativeAppDemoTests' do
     inherit! :search_paths

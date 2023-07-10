@@ -51,6 +51,23 @@ class ViewController: UIViewController {
         ])
         
         view.bringSubviewToFront(newVC.view)
+        
+        //Example in ERN Guide shows code like the one below, but that's not working here.
+//        let listenerProcessor = EventListenerProcessor(
+//            eventName: "endeavorminiapp.onButtonPress",
+//            eventPayloadClass: ElectrodeBridgeEvent.self,
+//            eventListener: { payload in
+//                print("payload is ", payload ?? "no payload")
+//            })
+//        listenerProcessor.execute()
+        
+        // This works!
+        ElectrodeBridgeHolder.addEventListener(withName: "endeavorminiapp.onButtonPress", eventListner: { [weak self] payload in
+            let alert = UIAlertController(title: "Button Clicked", message: ((payload as? NSDictionary)?.value(forKey: "input") as? String) ?? "NO PAYLOAD!!", preferredStyle: .alert)
+            let alertAction = UIAlertAction(title: "OK", style: .default)
+            alert.addAction(alertAction)
+            self?.present(alert, animated: false)
+        })
     }
 }
 

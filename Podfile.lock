@@ -1,22 +1,22 @@
 PODS:
-  - ElectrodeContainer (1.0.6)
+  - ElectrodeContainer (1.0.8)
 
 DEPENDENCIES:
-  - "ElectrodeContainer (from `git@github.com:amandalragone/endeavor-ios-native-app-container.git`, tag `v1.0.6`)"
+  - "ElectrodeContainer (from `git@github.com:amandalragone/endeavor-ios-native-app-container.git`, tag `v1.0.8`)"
 
 EXTERNAL SOURCES:
   ElectrodeContainer:
     :git: "git@github.com:amandalragone/endeavor-ios-native-app-container.git"
-    :tag: v1.0.6
+    :tag: v1.0.8
 
 CHECKOUT OPTIONS:
   ElectrodeContainer:
     :git: "git@github.com:amandalragone/endeavor-ios-native-app-container.git"
-    :tag: v1.0.6
+    :tag: v1.0.8
 
 SPEC CHECKSUMS:
-  ElectrodeContainer: 47ec6e973833b43840054a9cfc25636972106867
+  ElectrodeContainer: 9777409f1d18c4e92b8ed8234d990da58b898e68
 
-PODFILE CHECKSUM: 21d77e13ad9c46d009869389d5956ed4089f14f9
+PODFILE CHECKSUM: 636f67aaba15808e2e29ae4380e6c4ada30d39e5
 
 COCOAPODS: 1.12.1
